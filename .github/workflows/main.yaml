@@ -4,7 +4,7 @@ on: push
 name: Test, Build and Release apk
 # 需要執行的任務
 jobs:
-	build_and_test:
+  build:
 		#name: Build APK
 		# 定義執行環境
 		#runs-on: ubuntu-latest
