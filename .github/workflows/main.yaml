@@ -23,7 +23,7 @@ jobs:
     - run: flutter pub get
     # 測試
     - run: flutter test
-    - run: flutter build apk --debug --splite-per-abi
+    - run: flutter build apk --debug --split-per-abi
     - name: Create a Release APK
       uses: ncipollo/release-action@v1
       with:
