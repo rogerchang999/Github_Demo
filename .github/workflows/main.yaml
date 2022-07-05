@@ -2,7 +2,7 @@
 on:
   push:
     tags:
-	- '*'
+    - '*'
 # 工作流名字
 name: Test, Build and Release apk
 # 需要執行的任務
