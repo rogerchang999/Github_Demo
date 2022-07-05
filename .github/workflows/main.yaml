@@ -1,8 +1,5 @@
 # 觸發工作流的操作
-on:
-  push:
-    tags:
-    - v*
+on: push
 # 工作流名字
 name: Test, Build and Release apk
 # 需要執行的任務
