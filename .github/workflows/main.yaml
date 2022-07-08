@@ -1,7 +1,10 @@
 # 工作流名字
 name: CI
 # 觸發工作流的操作
-on: [push]
+on:
+  push:
+    tags:
+      - '*'
 # 需要執行的任務
 jobs:
   flutter_test:
